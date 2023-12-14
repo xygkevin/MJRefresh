@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
     s.source_files = 'MJRefresh/**/*.{h,m}'
     s.exclude_files = 'MJRefresh/include/**'
     s.resource     = 'MJRefresh/MJRefresh.bundle'
+    s.resource_bundles = {'MJRefresh' => ['MJRefresh/PrivacyInfo.xcprivacy']}
     s.requires_arc = true
 end
